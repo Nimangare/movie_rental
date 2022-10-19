@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose");
 const supertest = require("supertest");
-const app = require("../../../app");
+const app = require("../../../src/app");
 
 const auth = require("../../../middleware/auth");
 const { Genre } = require("../../../model/Genre");

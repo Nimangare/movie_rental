@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const app = require("../../../app");
+const app = require("../../../src/app");
 const supertest = require("supertest");
 const { Genre } = require("../../../model/Genre");
 const { User } = require("../../../model/User");
