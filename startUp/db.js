@@ -5,7 +5,7 @@ const main = async () => {
   // if (await connect(config.get("mongodb"))) {
   //   console.log(`connected to ${config.get("mongodb")}`);
   // }
-
+  console.log(config.get("mongodb"));
   connect(config.get("mongodb"))
     .then(() => {
       console.log(`connected to ${config.get("mongodb")}`);
