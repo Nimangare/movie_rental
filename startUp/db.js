@@ -11,7 +11,7 @@ const main = async () => {
       console.log(`connected to ${config.get("mongodb")}`);
     })
     .catch(() => {
-      console.log("db not connected...");
+      console.log("db no connected...");
     });
 };
 
