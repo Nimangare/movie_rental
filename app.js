@@ -1,5 +1,5 @@
 const express = require("express");
-
+require("dotenv").config();
 require("express-async-errors");
 require("./startUp/db")();
 
